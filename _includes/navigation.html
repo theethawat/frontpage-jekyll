@@ -1,5 +1,29 @@
-<nav>
-    {% for item in site.data.navigation %}
-        <a href="{{item.link}} " {%if page.url == item.link %} class="current" {% endif %} > {{item.name}}</a>
-    {% endfor %}
+ <!-- Nav Bar-->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark kanit">
+        <span>
+          <a class="navbar-brand" href="index.html"><img src="assets/image/logo/logo_white.png" width="80" height="30" alt="logo_tin"></span>
+    
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav litsize mr-auto">
+            {% for item in site.data.navigation %}
+                <a class="nav-item nav-link" href="{{item.link}} " {%if page.url == item.link %} class="current" {% endif %} > {{item.name}}</a>
+            {% endfor %}
+          </ul>
+    
+          <ul class="navbar-nav desktop-social my-fullscreen-only">
+            <a class="nav-item nav-link" href="https://github.com/theethawat"><i class="fab fa-github"></i> <span class="mobile-only">GitHub</span></a>
+            <a class="nav-item nav-link" href="https://facebook.com/theduckcreatorthailand"><i class="fab fa-facebook"></i>
+              <span class="mobile-only">facebook</span></a>
+            <a class="nav-item nav-link" href="https://instagram.com/theethawatspace19"><i class="fab fa-instagram"></i> <span
+                class="mobile-only">Instagram</span></a>
+          </ul>
+        </div>
+    
+        <!--Nav Bar Icon on Mobile device (Built in Bootstrap)-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 </nav>
+    
+    

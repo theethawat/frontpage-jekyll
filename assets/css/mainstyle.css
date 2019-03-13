@@ -1,0 +1,16 @@
+/*Overall CSS*/
+.kanit{
+    font-family: 'kanit',sans-serif;
+}
+
+
+
+/*Device Specific CSS*/
+/*Desktop*/
+@media (min-width: 991.98px) { 
+    .mobile-only{
+        display: none;
+    }
+ }
+
+/*Mobile*/

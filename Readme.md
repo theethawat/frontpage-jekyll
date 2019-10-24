@@ -2,7 +2,7 @@
 
 ## Tin Theethawat Savastham
 
-ติน ธีร์ธวัช สวาสดิ์ธรรม https://theethawatspace.in.th Using Jekyll and GitHub Page Generating
+ติน ธีร์ธวัช สวาสดิ์ธรรม https://theethawat.github.io Using Jekyll and GitHub Page Generating
 
 - 21 Years old (since 1998)
 - Hatyai Songkhla, Thailand
